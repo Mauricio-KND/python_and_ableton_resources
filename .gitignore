@@ -44,7 +44,7 @@ wheels/
 .ipynb_checkpoints/
 *.ipynb
 
-# Data files (ajustar según necesidad)
+# Data files
 data/raw/
 data/processed/
 *.parquet
@@ -71,13 +71,13 @@ Thumbs.db
 htmlcov/
 .pytest_cache/
 
-# Airflow (si usas)
+# Airflow
 airflow.cfg
 airflow.db
 airflow-webserver.pid
 logs/
 
-# Spark (si usas)
+# Spark
 .spark-*/
 metastore_db/
 derby.log
