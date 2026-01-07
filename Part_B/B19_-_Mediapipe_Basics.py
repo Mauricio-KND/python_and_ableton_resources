@@ -1,5 +1,5 @@
 import cv2
-import mediapipe as mp
+import mediapipe as mp_local
 
 
 cap = cv2.VideoCapture(0)

@@ -6,15 +6,15 @@ This repository contains practical implementations from the Udemy course "Learn 
 ## Directory Structure
 ```
 python_and_ableton_resources/
-├── Part B/               # Core Python implementations for musical applications
-│   ├── B7 - Send CC Data.py
-│   ├── B21 - Sending data to Ableton.py
+├── Part_B/               # Core Python implementations for musical applications
+│   ├── B7_-_Send_CC_Data.py
+│   ├── B21_-_Sending_data_to_Ableton.py
 │   └── ... (fundamental implementations)
-├── Part C/               # Advanced Ableton API integrations
-│   ├── C1 - The LOM.py
-│   ├── C8 - Play Clips.py
+├── Part_C/               # Advanced Ableton API integrations
+│   ├── C1_-_The_LOM.py
+│   ├── C8_-_Play_Clips.py
 │   └── ... (API interaction examples)
-├── Part D/               # MIDI Remote Script framework
+├── Part_D/               # MIDI Remote Script framework
 │   └── nano/             # Custom control surface implementation
 └── 00data/               # Scientific datasets for algorithmic composition
 ```

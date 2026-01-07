@@ -6,7 +6,7 @@ from rtmidi.midiconstants import (CONTROL_CHANGE)
 import time
 
 midiout = rtmidi.MidiOut()
-midiout.open_port(2)
+midiout.open_virtual_port("Ableton Camera Control")
 
 cap = cv2.VideoCapture(0)
 mpHands = mp.solutions.hands
@@ -64,4 +64,4 @@ while True:
     fps = 1
     cv2.putText(img, str(fps), (10, 70), cv2.FONT_HERSHEY_PLAIN, 2, (255, 200, 5), 3)
     cv2.imshow("Your Face goes here", img)
-    cv2.waitKey(fps)
+    cv2.waitKey(30)  # More efficient than using variable fps
