@@ -28,7 +28,7 @@ python_and_ableton_resources/
 
 ## System Requirements
 - Ableton Live 11/12 (API access enabled in Preferences > API)
-- Python 3.9+ (M1-optimized build recommended)
+- Python 3.9+
 - Required Python packages:
   - python-osc
   - mediapipe
@@ -64,6 +64,6 @@ player.play_clip(clip_index=0)  # Initiate clip playback
 ```
 
 ## Development Environment
-- macOS 11+ (M1 Pro/Max chip optimized)
-- Python 3.9+ with virtual environment management
-- Visual Studio Code with Python extension
+- macOS 11+
+- Python 3.9+
+- Visual Studio Code
