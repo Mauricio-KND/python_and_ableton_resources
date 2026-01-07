@@ -1,0 +1,94 @@
+# Ambiente virtual
+venv/
+env/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfgs
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Entornos
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (ajustar según necesidad)
+data/raw/
+data/processed/
+*.parquet
+*.csv
+*.json
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Airflow (si usas)
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+logs/
+
+# Spark (si usas)
+.spark-*/
+metastore_db/
+derby.log
+
+# PyCharm
+.idea/
+
+# Virtual environment
+venv.bak/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
